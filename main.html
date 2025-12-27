@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <style>
+        /* Extra styles only for main page */
+        .container {
+            background: white;
+            padding: 30px;
+            width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        .container p {
+            text-align: justify;
+            margin-bottom: 25px;
+            color: #444;
+        }
+
+        .btn-group {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .btn-group button {
+            padding: 12px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Financial Institution Dashboard</h2>
+
+    <p>
+        A financial institution manages customers who avail various loan and credit
+        services. Each customer has multiple financial records, including outstanding
+        debts, repayment history, and submitted verification documents. Currently,
+        these records are stored across different systems, making it difficult to
+        quickly retrieve customer information, assess creditworthiness, and detect
+        fraudulent activities.
+    </p>
+
+    <div class="btn-group">
+        <button>Customer Details</button>
+        <button>Loan Management</button>
+        <button>Credit Assessment</button>
+        <button>Repayment History</button>
+        <button>Document Verification</button>
+        <button>Fraud Detection</button>
+    </div>
+</div>
+
+</body>
+</html>
